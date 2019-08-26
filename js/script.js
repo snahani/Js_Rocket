@@ -22,4 +22,7 @@ var car = {
             console.log("car is Off");
         }
     },
+    fly = function() {
+        alert("TakeOff your car!!!")
+    }
 };
