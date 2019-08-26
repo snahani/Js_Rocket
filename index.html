@@ -18,19 +18,17 @@
                 'seat3',
                 'seat4'
             ],
-            turnOn: function() {
-                this.isTurnedOn = true;
+            switchCar: function(isOn) {
+                if (isOn == true) {
+                    this.isTurnedOn = true;
+                } else {
+                    this.isTurnedOn = false;
+                }
             },
 
         };
 
-        var paint = function() {
-            car.color = 'white';
-        };
 
-        var rePaint = function() {
-            car.color = 'Yellow';
-        };
 
 
         console.log('Hello there friends!')
