@@ -3,12 +3,15 @@ body {
 }
 
 .cool {
+    visibility: hidden;
     width: 100px;
     height: 100px;
     background-color: lightgreen;
-    transition: background-color 1s;
+    transition: background-color 4s;
+    /*    transition: visibility 1s; */
 }
 
 .cool.red {
+    visibility: visible;
     background-color: red;
 }
