@@ -35,5 +35,4 @@ var car = {
     fly: function() {
         alert("TakeOff your car!!!")
     },
-
 };
