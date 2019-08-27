@@ -1,11 +1,9 @@
-import { red } from "bn.js";
-
 // JavaScript Code is here ...
 
 var doCoolStuff = function() {
-    document.getElementById('cool').className = cool red;
+    document.getElementById('cool').className = 'cool red';
 
-}
+};
 
 var sayMyName = function(name) {
     alert("My name is  " + name);
